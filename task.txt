@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Netflix Clone</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="Net.png" alt="Netflix Logo">
+        </div>
+        <header>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">TV Shows</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">New & Popular</a></li>
+            <li><a href="#">My List</a></li>
+        </ul>
+        </header>
+    </nav>
+    <section class="hero" style="background-image: url('Netimg.jpg');"></section>
+
+        <div class="hero-content">
+            <h1>Unlimited movies, TV shows, and more.</h1>
+            <p>Watch anywhere. Cancel anytime.</p>
+            <button>Get Started</button>
+        </div>
+    </section>
+    <label>
+    <ul>
+        <li><a href="#">OVERVIEW            &nbsp;              EPISODES           &nbsp;         MORE LIKE THIS            &nbsp;            DETAILS</a></li>
+    </ul>
+    </label>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Developer Portfolio</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: rgba(163, 47, 47, 0.4)
+    }
+
+    header {
+      background-color: #333;
+      color: #5256c8;
+      padding: 1em 0;
+      text-align: center;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: rgba(183, 77, 77, 0.91)fe8;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1,
+    h2,
+    h3 {
+      color: #333;
+    }
+
+    p {
+      line-height: 1.6;
+      color: #f7f0f0;
+    }
+
+    .skills {
+      margin-top: 20px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin-bottom: 5px;
+    }
+
+    footer {
+      background-color: #f2e9e9;
+      color: #e3dede;
+      text-align: center;
+      padding: 1em 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>John Doe</h1>
+    <p>Web Developer</p>
+  </header>
+
+  <section>
+    <h2>Portfolio</h2>
+    <img src="Soumya1.jpg" height="100px" width="100px">
+    <p>Hello! I'm Soumya Patel and I'm a passionate web developer with experience in creating responsive and user-friendly websites. I enjoy
+      turning ideas into reality through code.</p>
+      
+  </section>
+  
+
+  <section>
+    <h2>Skills</h2>
+    <ul class="skills">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      
+    </ul>
+  </section>
+
+  <section>
+    
+    <p>Description of Project 1.</p>
+    <h3>Project 2
+        Builds, designs, and maintains all websites and software applications.
+Regulates exposure to business stakeholders and executive management as well as other authorities.
+Designs, writes, and edits website content.
+    </h3>
+    <p>Description of Project 2.</p>
+    <!-- Add more projects as needed -->
+  </section>
+
+  <footer>
+    <p>&copy; 2023 John Doe - Web Developer</p>
+  </footer>
+
+</body>
+
+</html>
